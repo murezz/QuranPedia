@@ -14,5 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::view('/', 'index');
-Route::get('/murottal', 'appController@index');
-Route::get('/jadwalsholat', 'appController@jadwal');
+Route::view('/jadwalSholat', 'jadwal');
+Route::get('/surah', 'appController@index');
+Route::get('/detail/{id}', 'appController@detail')
+    ->name('surah.detail');

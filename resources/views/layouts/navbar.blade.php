@@ -13,11 +13,11 @@
             <div class="navbar-nav">
                 <a class="nav-link me-5 {{ request()->is('/') ? ' active' : '' }}" data-aos="fade-down"
                     data-aos-duration="1000" href="/">Home</a>
-                <a class="nav-link me-5 {{ request()->is('murottal') ? ' active' : '' }}" data-aos="fade-down"
-                    data-aos-duration="1500" href="/murottal">Murottal</a>
-                <a class="nav-link me-5 {{ request()->is('jadwalsholat') ? ' active' : '' }}" data-aos="fade-down"
-                    data-aos-duration="2000" href="/jadwalsholat">Jadwal Sholat</a>
-                <a class="nav-link" data-aos="fade-down" data-aos-duration="2500" href="#">FAQ</a>
+                <a class="nav-link me-5 {{ request()->is('surah') ? ' active' : '' }}" data-aos="fade-down"
+                    data-aos-duration="1500" href="/surah">List surah</a>
+                <a class="nav-link me-5 {{ request()->is('jadwalSholat') ? ' active' : '' }}" data-aos="fade-down"
+                    data-aos-duration="2000" href="/jadwalSholat">Jadwal Sholat</a>
+                <a class="nav-link" data-aos="fade-down" data-aos-duration="2500" href="#">About</a>
             </div>
         </div>
     </div>
